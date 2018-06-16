@@ -25,7 +25,6 @@ export default class CategoryBlock extends Component {
             <View style={styles.border} />
             <View style={styles.text}>
               <Text style={styles.title}>{this.props.title}</Text>
-              <Text style={styles.subtitle}>Shop Now</Text>
             </View>
           </View>
         </TouchableOpacity>

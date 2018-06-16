@@ -199,80 +199,36 @@ const styles = {
 var menuItems = [
   {
     id: 1,
-    title: 'MEN',
-    subMenu: [
-      {
-        id: 5,
-        title: 'NEW IN'
-      },
-      {
-        id: 6,
-        title: 'JACKETS'
-      },
-      {
-        id: 7,
-        title: 'BLAZERS'
-      },
-      {
-        id: 8,
-        title: 'TROUSERS'
-      },
-      {
-        id: 9,
-        title: 'JEANS'
-      },
-      {
-        id: 10,
-        title: 'SHORTS'
-      },
-      {
-        id: 11,
-        title: 'SHOES'
-      }
-    ]
+    title: 'Business cards',
   },
   {
     id: 2,
-    title: 'WOMEN',
-    subMenu: [
-      {
-        id: 12,
-        title: 'NEW IN'
-      },
-      {
-        id: 13,
-        title: 'JACKETS'
-      },
-      {
-        id: 14,
-        title: 'BLAZERS'
-      },
-      {
-        id: 15,
-        title: 'TROUSERS'
-      },
-      {
-        id: 16,
-        title: 'JEANS'
-      },
-      {
-        id: 17,
-        title: 'SHORTS'
-      },
-      {
-        id: 18,
-        title: 'SHOES'
-      }
-    ]
+    title: 'Documents',
   },
   {
     id: 3,
-    title: 'KIDS'
+    title: 'Photos'
   },
   {
     id: 4,
-    title: 'ACCESORIES'
-  }
+    title: 'Calendars'
+  },
+  {
+    id: 5,
+    title: 'Flyers'
+  },
+  {
+    id: 6,
+    title: 'Postcards'
+  },
+  {
+    id: 7,
+    title: 'Booklets'
+  },
+  {
+    id: 8,
+    title: 'Leaflets'
+  },
 ];
 
 

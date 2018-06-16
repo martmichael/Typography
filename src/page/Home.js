@@ -38,7 +38,7 @@ export default class Home extends Component {
     return(
       <SideMenuDrawer ref={(ref) => this._sideMenuDrawer = ref}>
           <Container>
-            <Navbar left={left} right={right} title="MY STORE" />
+            <Navbar left={left} right={right} title="TYPOGRAPHY" />
             <Content>
               {this.renderCategories()}
             </Content>
@@ -62,22 +62,22 @@ export default class Home extends Component {
 var categories = [
   {
     id: 1,
-    title: 'MEN',
-    image: 'http://res.cloudinary.com/atf19/image/upload/c_scale,w_489/v1500284127/pexels-photo-497848_yenhuf.jpg'
+    title: 'BUSINESS CARDS',
+    image: 'https://www.solopress.com/thumbnails/0/8554/48/business-cards-laminated1.jpg'
   },
   {
     id: 2,
-    title: 'WOMEN',
-    image: 'http://res.cloudinary.com/atf19/image/upload/c_scale,w_460/v1500284237/pexels-photo-324030_wakzz4.jpg'
+    title: 'DOCUMENTS',
+    image: 'http://www.upsctoday.com/wp-content/uploads/2018/05/Documents.jpg'
   },
   {
     id: 3,
-    title: 'KIDS',
-    image: 'http://res.cloudinary.com/atf19/image/upload/c_scale,w_445/v1500284286/child-childrens-baby-children-s_shcevh.jpg'
+    title: 'PHOTOS',
+    image: 'https://cewe-photoworld.com/wp-content/uploads/2014/06/photo_prints_fan.jpg'
   },
   {
     id: 4,
-    title: 'ACCESORIES',
-    image: 'http://res.cloudinary.com/atf19/image/upload/c_scale,w_467/v1500284346/pexels-photo-293229_qxnjtd.jpg'
+    title: 'FLYERS',
+    image: 'https://edinburghbanners.co.uk/wp-content/uploads/2016/07/Edinburgh-Banners-Flyers-a5.jpg'
   }
 ];

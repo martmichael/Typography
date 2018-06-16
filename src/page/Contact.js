@@ -66,6 +66,6 @@ export default class Contact extends Component {
   }
 
   send() {
-    alert('Send email');
+    alert('Email sent');
   }
 }

@@ -319,22 +319,22 @@ export default class Product extends Component {
 
 const dummyProduct = {
   id: 2,
-  title: 'V NECK T-SHIRT',
+  title: 'documents',
   description: "Pellentesque orci lectus, bibendum iaculis aliquet id, ullamcorper nec ipsum. In laoreet ligula vitae tristique viverra. Suspendisse augue nunc, laoreet in arcu ut, vulputate malesuada justo. Donec porttitor elit justo, sed lobortis nulla interdum et. Sed lobortis sapien ut augue condimentum, eget ullamcorper nibh lobortis. Cras ut bibendum libero. Quisque in nisl nisl. Mauris vestibulum leo nec pellentesque sollicitudin. Pellentesque lacus eros, venenatis in iaculis nec, luctus at eros. Phasellus id gravida magna. Maecenas fringilla auctor diam consectetur placerat. Suspendisse non convallis ligula. Aenean sagittis eu erat quis efficitur. Maecenas volutpat erat ac varius bibendum. Ut tincidunt, sem id tristique commodo, nunc diam suscipit lectus, vel",
-  image: 'http://res.cloudinary.com/atf19/image/upload/c_crop,h_250,w_358,x_150/v1500465309/pexels-photo-206470_nwtgor.jpg',
+  image: 'http://www.upsctoday.com/wp-content/uploads/2018/05/Documents.jpg',
   images: [
-    'http://res.cloudinary.com/atf19/image/upload/c_crop,h_250,w_358,x_150/v1500465309/pexels-photo-206470_nwtgor.jpg',
-    'http://res.cloudinary.com/atf19/image/upload/c_crop,h_250,x_226,y_54/v1500465309/pexels-photo-521197_hg8kak.jpg',
-    'http://res.cloudinary.com/atf19/image/upload/c_crop,g_face,h_250,x_248/v1500465308/fashion-men-s-individuality-black-and-white-157675_wnctss.jpg',
-    'http://res.cloudinary.com/atf19/image/upload/c_crop,h_250/v1500465308/pexels-photo-179909_ddlsmt.jpg'
+    'http://www.upsctoday.com/wp-content/uploads/2018/05/Documents.jpg',
+    'https://edinburghbanners.co.uk/wp-content/uploads/2016/07/Edinburgh-Banners-Flyers-a5.jpg',
+    'https://static1.squarespace.com/static/5771709e893fc09ddd54f8ba/5785674f3e00be94f0362e7f/57e3522203596ee89c1037f0/1474515532157/postcards3.png?format=500w',
+    'https://www.solopress.com/thumbnails/0/8554/48/business-cards-laminated1.jpg'
   ],
-  price: '120$',
-  colors: ['Red', 'Blue', 'Black'],
-  sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+  price: '12$',
+  colors: ['White', 'Blue', 'Black'],
+  sizes: ['A6', 'A5', 'A4', 'A3', 'A2', 'A1'],
   category: 'MAN',
   similarItems: [
-    {id: 10, title: 'V NECK T-SHIRT', price: '29$', image: 'http://res.cloudinary.com/atf19/image/upload/c_crop,g_face,h_250,x_248/v1500465308/fashion-men-s-individuality-black-and-white-157675_wnctss.jpg'},
-    {id: 11, title: 'V NECK T-SHIRT', price: '29$', image: 'http://res.cloudinary.com/atf19/image/upload/c_crop,h_250/v1500465308/pexels-photo-179909_ddlsmt.jpg'},
-    {id: 12, title: 'V NECK T-SHIRT', price: '29$', image: 'http://res.cloudinary.com/atf19/image/upload/c_crop,h_250/v1500465308/pexels-photo-179909_ddlsmt.jpg'}
+    {id: 10, title: 'PHOTOS', categoryId: 1, categoryTitle: 'KIDS', price: '2$', image: 'https://cewe-photoworld.com/wp-content/uploads/2014/06/photo_prints_fan.jpg'},
+    {id: 11, title: 'CALENDARS', categoryId: 5, categoryTitle: 'MEN', price: '22$', image: 'https://sc01.alicdn.com/kf/UT8vgJLXBRXXXagOFbXg/A3-Custom-Spiral-Monthly-Wall-Calendar-Planner.jpg_350x350.jpg'},
+    {id: 12, title: 'LEAFLETS', categoryId: 5, categoryTitle: 'MEN', price: '22$', image: 'https://www.entuk.org/sites/default/files/FullSizeRender_0.jpg'},
   ]
 };

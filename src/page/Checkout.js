@@ -110,7 +110,7 @@ export default class Checkout extends Component {
             </Grid>
           </View>
           <View>
-            <Text style={{marginTop: 15, marginBottom: 7, fontSize: 18}}>Payement method</Text>
+            <Text style={{marginTop: 15, marginBottom: 7, fontSize: 18}}>Payment method</Text>
             <ListItem style={{borderWidth: 1, borderColor: 'rgba(149, 165, 166, 0.3)', paddingLeft: 10, marginLeft: 0}}>
               <Text>Pay with card</Text>
               <FAIcon name="cc-mastercard" size={20} color="#c0392b" style={{marginLeft: 7}} />
@@ -130,7 +130,7 @@ export default class Checkout extends Component {
           <View style={{marginTop: 10, marginBottom: 10, paddingBottom: 7}}>
             <Button onPress={() => this.checkout()} style={{backgroundColor: Colors.navbarBackgroundColor}} block iconLeft>
               <Icon name='ios-card' />
-              <Text style={{color: '#fdfdfd'}}>Proceed to payement</Text>
+              <Text style={{color: '#fdfdfd'}}>Proceed to payment</Text>
             </Button>
           </View>
         </Content>

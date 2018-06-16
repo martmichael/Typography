@@ -47,6 +47,6 @@ export default class Newsletter extends Component {
   }
 
   subscribe() {
-    alert('Subscribe address: '+this.state.email);
+    alert('You have subscribed: '+this.state.email);
   }
 }

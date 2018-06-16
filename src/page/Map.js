@@ -21,17 +21,17 @@ export default class Map extends Component {
     super(props);
     this.state = {
       region: {
-        latitude: 48.85837009999999,
-        longitude: 2.2944813000000295,
+        latitude: 50.440252,
+        longitude: 30.545670,
         latitudeDelta: 0.0922,
         longitudeDelta: 0.0421
       },
       marker: {
-        title: 'STORE PARIS',
-        address: '21 bis rue de la trippe, paris',
+        title: 'Kyiv typography',
+        address: 'Levandovska str. 6',
         coord: {
-          latitude: 48.85837009999999,
-          longitude: 2.2944813000000295
+          latitude: 50.440252,
+          longitude: 30.545670
         }
       }
     };
